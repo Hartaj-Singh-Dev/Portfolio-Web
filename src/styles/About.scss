@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+div.About {
+  height: 130vh;
+  width: 100%;
+  scroll-snap-align: start;
+  position: relative;
+  background-color: #f0f0f0;
+}
+/* div.textAnimation {
+  padding: 3rem 0 1.5rem 3rem;
+} */
+
+div.textAnimation h1.Type{
+  font-size: 2vw;
+  text-align: center;
+  padding: 4% 0 0 0;
+  font-weight: 490;
+  font-family: "Montserrat";
+}
+
+div.bioData {
+  display: flex;
+  padding: 1% 0 0 0;
+  height: 78%;
+}
+
+div.data div.BioData p{
+  /* height:7.5rem; */
+  width: 86%;
+  white-space:pre-wrap;
+  font-family: "Roboto Mono";
+  font-size: 1.3vw;
+  font-weight: 599;
+}
+div.aboutHeader {
+  height: 13%;
+}
+
+div.dataCards{
+  display: flex;
+  justify-content: space-around;
+  /* margin: 1rem 0 0 0; */
+}
+
+img.MyPicInPersonalWebsite{
+  border-radius: 20%;
+  height: 20vw;
+  width: 20vw;
+}
+
+
+div.bioData div.MyPic {
+  width: 30%;
+  display: flex;
+    justify-content: space-around;
+}
+div.bioData div.data {
+  padding: 1% 0.2% 0% 0.6%;
+  width: 70%;
+  display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+div.About div.ContactArrow {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+div.dataCards{
+  height: 60%;
+}
+
+
+div.data div.dataCards div.card {
+  height: 95%;
+  width: 27%;
+  background: rgba( 248, 248, 248, 0.30 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 13.0px );
+  -webkit-backdrop-filter: blur( 13.0px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-around;
+}
+div.dataCards div.card div.cardDetails{
+    height: 80%;
+   
+}
+
+div.data{
+  font-family: 'Poppins';
+}
+
+div.dataCards div.card{
+  z-index: 1;
+}
+
+div.data p span{
+  font-weight: 600;
+}
+
+/* Card CSS */
+
+div.card div.cardHead{
+  text-align: center;
+  font-family: Roboto;
+  font-size: 1.2vw;
+}
+div.card div.cardsubHeader{
+  display: flex;
+  justify-content: space-around;
+  font-family: "Roboto";
+  font-size: 1.3vw;
+}
+
+div.subHead{
+  text-align: center;
+  font-family: "Roboto";
+}
+
+div.subHeadFullData h1.education{
+  text-decoration: underline;
+  font-size: 1.3vw;
+  
+}
+
+div.card div.cardDetails {
+  display: flex;
+  height: 80%;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+div.skills{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+   font-size: 1.3vw;
+  width: 60%;
+}
+
+
+
+
+
+
+div.card div.skills{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 0.5rem;
+}
+
+div.skillReact + div.skillHTML +  div.skillCSS + div.skillJS + div.skillNode + div.skillDatabase + div.skillNextjs{
+  height: 1.4rem;
+  font-family: "Roboto";
+  
+}
+
+div.cardDetailsOfEducation{
+  height: 90%;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    justify-content: space-around
+}
+
+div.SelfEducation{
+  font-family: "Roboto";
+  color:green;
+  display: "flex";
+  flex-direction: "column";
+  align-items: center;
+  justify-content: "space-around";
+}
+
+div.subHeadFullData{
+  text-align: center;
+  font-family: Roboto;
+  font-size: 1.5vw;
+  font-weight: 599;
+}
+
+/* Card CSS */
+
+
+@media all and (max-width:650px){
+  div.bioData{
+    flex-direction: column;
+  }
+  div.About{
+    height:200vh;
+    max-width: 100%;
+    width: 100%;
+  }
+  div.textAnimation{
+    padding: 8% 0 0rem 0rem;
+  }
+  div.bioData{
+    height: 83%;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+  }
+  div.bioData div.data{
+    height: 80%;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  div.bioData div.data p{
+    font-size: 1rem;
+    font-weight: 600;
+    width: 100%;
+    padding: 0 4% 0 4%;
+  }
+  div.bioData div.MyPic {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  div.MyPic img{
+    height: 50vw;
+    width: 50vw;
+  }
+  div.dataCards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 65%;
+    justify-content: space-evenly;
+  }
+
+  div.aboutHeader{
+    height: 13%;
+    display: flex;
+    align-items: center;
+  }
+  div.aboutHeader div.textAnimation h1{
+    font-weight: 490;
+    font-size: 1.9rem;
+  }
+
+  div.data div.dataCards div.card {
+    height: 48%;
+    width: 65%;
+   } 
+
+   div.card div.cardHead {
+    font-size: 1.1rem;
+  }
+
+    div.card div.cardsubHeader {
+      font-size: 0.9rem;
+   }
+
+   div.skills {
+    font-size: 1rem;
+    }
+
+    div.effeicency {
+      font-size: 1rem;
+    }
+
+    div.subHeadFullData {
+      font-size: 1.1rem;
+     }
+
+     div.subHeadFullData h1.education {
+      text-decoration: underline;
+      font-size: 1rem;
+  }
+
+}

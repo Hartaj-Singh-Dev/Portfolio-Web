@@ -1,0 +1,239 @@
+ @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url(//db.onlinewebfonts.com/c/2206d6cc490084998d531e8c1b2cbb4a?family=Druk+Wide+Bold);
+
+div.homePage {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(146deg, #db1f48, #55b7f7);
+  background-size: 400% 400%;
+  -webkit-animation: BackgroundAnimation 18s ease infinite;
+  -moz-animation: BackgroundAnimation 18s ease infinite;
+  animation: BackgroundAnimation 18s ease infinite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  /* align-items:flex-end; */
+  position: relative;
+}
+
+@-webkit-keyframes BackgroundAnimation {
+  0% {
+    background-position: 17% 0%;
+  }
+  50% {
+    background-position: 84% 100%;
+  }
+  100% {
+    background-position: 17% 0%;
+  }
+}
+@-moz-keyframes BackgroundAnimation {
+  0% {
+    background-position: 17% 0%;
+  }
+  50% {
+    background-position: 84% 100%;
+  }
+  100% {
+    background-position: 17% 0%;
+  }
+}
+@keyframes BackgroundAnimation {
+  0% {
+    background-position: 17% 0%;
+  }
+  50% {
+    background-position: 84% 100%;
+  }
+  100% {
+    background-position: 17% 0%;
+  }
+}
+
+div.name{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+/* 
+div.name h1.myName span.SinghText{
+  /* margin-left: 2rem; */
+/* } */ 
+
+h1.myName{
+    font-size: 7vw;
+   margin: 0 0 0 0rem;
+    background: linear-gradient(315deg, #db1f48, #55b7f7 );
+    background-size: 400% 400%;
+
+    -webkit-animation: NameAnimation 13s ease infinite;
+    -moz-animation: NameAnimation 13s ease infinite;
+    animation: NameAnimation 13s ease infinite;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+    font-family: 'Druk Wide Bold';
+}
+h1.myName::before{
+    font-size: 9vw;
+    content: "<";
+   /* margin: 0 0 0 5rem; */
+    background: linear-gradient(315deg, #db1f48, #55b7f7 );
+    background-size: 400% 400%;
+
+    -webkit-animation: NameAnimation 13s ease infinite;
+    -moz-animation: NameAnimation 13s ease infinite;
+    animation: NameAnimation 13s ease infinite;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+    font-family: 'Druk Wide Bold';
+}
+h1.myName::after{
+    font-size: 9vw;
+    content: "/>";
+   /* margin: 0 0 0 5rem; */
+    background: linear-gradient(315deg, #db1f48, #55b7f7 );
+    background-size: 400% 400%;
+
+    -webkit-animation: NameAnimation 13s ease infinite;
+    -moz-animation: NameAnimation 13s ease infinite;
+    animation: NameAnimation 13s ease infinite;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+    font-family: 'Druk Wide Bold';
+}
+
+@-webkit-keyframes NameAnimation {
+    0%{background-position:1% 0%}
+    50%{background-position:99% 100%}
+    100%{background-position:1% 0%}
+}
+@-moz-keyframes NameAnimation {
+    0%{background-position:1% 0%}
+    50%{background-position:99% 100%}
+    100%{background-position:1% 0%}
+}
+@keyframes NameAnimation {
+    0%{background-position:1% 0%}
+    50%{background-position:99% 100%}
+    100%{background-position:1% 0%}
+}
+
+div.socialIcons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 30%;
+  /* margin: 3rem 0 0 30rem; */
+}
+
+div.socialIcons a{
+  color:black
+}
+div.socialIcons a.InstagramIcon #insta:hover{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+div.socialIcons a.discordIcon i:hover{
+  color:#7289DA ;
+}
+
+div.socialIcons a.LinkedinIcon i:hover{
+  color:#2867B2;
+}
+div.socialIcons a.GitHubIcon i:hover{
+  color: black;
+}
+div.socialIcons a.TwitterIcon i:hover{
+  color:#1da1f2;
+}
+
+
+div.socialIcons a i{
+  color: #ffff;
+  font-size: 3vw;
+}
+
+div.Arrow h4.Readmore{
+  font-size: 1vw;
+  color: #fcfcfc;
+}
+div.Arrow .ArrowIcon{
+  font-size: 4vw;
+}
+
+div.Arrow{
+  height: 2vw;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 2rem 0 0 0;
+  position: absolute;
+  bottom: 1rem;
+}
+div.Arrow h4{
+  margin: 0 0 0 0;
+}
+div.Arrow .MuiSvgIcon-root{
+  color: #ffff;
+  margin: 0rem 0 0 0;
+}
+
+/* Responsive */
+
+
+@media all and (max-width:600px){
+  div.homePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+  }
+  div.name{
+    width: 90%;
+  }
+
+  h1.myName{
+    font-size: 6.5rem;
+    font-family: "Oswald";
+}
+h1.myName::before{
+    font-size: 7rem;
+   font-family: "Oswald";
+}
+h1.myName::after{
+    font-size: 7rem;
+    font-family: "Oswald";
+}
+
+div.socialIcons{
+  width: 90%;
+  padding: 1% 0 0 0 ;
+}
+
+div.socialIcons a i{
+  color: #ffff;
+  font-size: 2.8rem;
+}
+
+div.Arrow{
+  height: 4.5rem;
+}
+
+div.Arrow h4.Readmore{
+  font-size: 0.6rem;
+}
+
+}
+/* Responsive */

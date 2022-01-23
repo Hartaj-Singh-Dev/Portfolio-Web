@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@650&display=swap');
+
+section.contact{
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    flex-direction: column;
+    justify-content: center;
+    background-color: coral;
+    background: linear-gradient(314deg,#333652, #e6685c);
+    background-size: 400% 400%;
+
+    -webkit-animation: ContactAnimation 10s ease infinite;
+    -moz-animation: ContactAnimation 10s ease infinite;
+    animation: ContactAnimation 10s ease infinite;
+}
+
+@-webkit-keyframes ContactAnimation {
+    0%{background-position:0% 7%}
+    50%{background-position:100% 94%}
+    100%{background-position:0% 7%}
+}
+@-moz-keyframes ContactAnimation {
+    0%{background-position:0% 7%}
+    50%{background-position:100% 94%}
+    100%{background-position:0% 7%}
+}
+@keyframes ContactAnimation {
+    0%{background-position:0% 7%}
+    50%{background-position:100% 94%}
+    100%{background-position:0% 7%}
+} 
+div.contactform{
+    min-height: 80%;
+    min-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+div.contactForm{
+    /* padding: 4rem 0 0 0rem;
+    margin: 0rem 0 0 4rem;
+    height:70vh;
+    width: 40vw; */
+    min-height: 90%;
+    color: #fcfcfc;
+    min-width: 100%;
+    color:#fcfcfc;
+}
+   
+div.contactForm form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 92%;
+}
+
+div.contactForm form div.Input{
+    height: 6vw;
+    padding-top: 0.4rem;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+div.Input label{
+    font-size: 1.5vw;
+}
+div.contactForm form div.Input input{
+    margin-top: 0.5rem;
+    padding: 0.3rem 0 0.3rem 0.4rem;
+    border: none;
+    width: 100%;
+    outline-width: 0;
+    height: 60%;
+    background: transparent;
+    color: #fcfcfc;
+    font-size: 1.4vw;
+    border: 2px solid #fcfcfc;
+    border-radius: 8px;
+}
+div.contactForm form div.Input input:focus{
+    border: 2.5px solid #fcfcfc;
+}
+
+div.contactForm form div.TextAreaInput{
+    height: 55%;
+    display: flex;
+    margin: 0.4rem 0 0 0;
+    width: 95%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+div.contactForm form div.TextAreaInput textarea{
+    background: transparent;
+    width: 100%;
+    margin-top: 0.4rem;
+    border: none;
+    height: 100%;
+    border: 2px solid #fcfcfc;
+    border-radius: 8px;
+    outline-width: 0;
+    /* resize: vertical; */
+    color: #fcfcfc;
+    padding: 0 0 0 0.2rem;
+
+    font-size: 1.4vw;
+    height: 100%;
+}
+
+div.contactForm form div.TextAreaInput textarea:active{
+   border: 2.5px solid #fcfcfc;
+}
+
+div.TextAreaInput label{
+    font-size: 1.4vw;
+}
+
+/* 
+div.contactForm form div.Input input{
+    height: 2rem;
+    width: 13.5rem;
+    border: none;
+    outline-width: 0;
+    background: transparent;
+    color: #fcfcfc;
+    margin: 0 0 -3px 5px;
+    font-size: medium;
+} */
+
+
+h2.contactFormHeading{
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 2vw;
+}
+div.contactForm h2.formHeading{
+    font-weight: 700;
+}
+
+
+div.contact div.HomeArrow{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+div.HomeArrow .MuiSvgIcon-root{
+    color: #ffff;
+}
+
+
+div.contactForm button.submitButton{
+    padding:0.7rem 1.2rem;
+    cursor:pointer;
+    margin-top: 0.9rem;
+    font-size: medium;
+    color: #fcfcfc;
+    border-radius: 5px;
+    border: none;
+    outline-width: none;
+    font-family: 'Poppins';
+    background: linear-gradient(127deg, #333652, #e6685c);
+    background-size: 400% 400%;
+
+    -webkit-animation: ContactButtonAnimation 10s ease infinite;
+    -moz-animation: ContactButtonAnimation 10s ease infinite;
+    animation: ContactButtonAnimation 10s ease infinite;
+
+}
+div.contactForm button.submitButton:active{
+    box-shadow: 3px 3px 13px -4px rgba(0,0,0,0.86);
+-webkit-box-shadow: 3px 3px 13px -4px rgba(0,0,0,0.86);
+-moz-box-shadow: 3px 3px 13px -4px rgba(0,0,0,0.86)
+}
+
+@-webkit-keyframes ContactButtonAnimation {
+    0%{background-position:0% 18%}
+    50%{background-position:100% 83%}
+    100%{background-position:0% 18%}
+}
+@-moz-keyframes ContactButtonAnimation {
+    0%{background-position:0% 18%}
+    50%{background-position:100% 83%}
+    100%{background-position:0% 18%}
+}
+@keyframes ContactButtonAnimation {
+    0%{background-position:0% 18%}
+    50%{background-position:100% 83%}
+    100%{background-position:0% 18%}
+}
+div.ErrorandButton{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+div.ErrorandButton div.error{
+    height: 1rem;
+    width: 30%;
+}
+div.submitButton{
+    width:40%;
+}
+
+div.ErrorandButton div.submitButton button.submitButton{
+    height: 4vw;
+    width: 13vw;
+    font-size: 1.5vw;
+}
+div.HomeArrow{
+    margin: -7px 0 2px 0;
+}
+div.contactform h2.contactFormHeading{
+    text-align: center;
+    color: white;
+}
+
+
+/* Responsive */
+
+
+@media all and (max-width:600px){
+    div.contactform{
+        width: 95%;
+        min-height: 50%;
+         height: 75%;
+    }
+
+    h2.contactFormHeading {
+        font-size: 1.5rem;
+    }
+
+    div.contactForm {
+        min-height: 96%;
+        height: 93%;
+    }
+    div.contactForm form {
+        height: 100%;
+    }
+    div.Input input{
+        margin-top: 0;
+        height: 90%;
+        font-size: 1rem;
+    }
+    div.contactForm form div.Input input{
+        margin-top: 0;
+        height: 90%;
+        font-size: 1rem;
+    }
+    div.Input{
+        height: 3.5rem;
+    }
+    div.Input label{
+        font-size: 1rem;
+    }
+
+    div.contactForm form div.Input{
+        height: 3rem;
+    }
+
+    div.contactForm form div.TextAreaInput{
+        height: 40%;
+    }
+
+    div.TextAreaInput label {
+        font-size: 1rem;
+    }
+
+    div.ErrorandButton div.submitButton button.submitButton {
+        height: 70%;
+        width: 80%;
+        text-align: center;
+        font-size: 0.7rem;
+    }
+    div.contactForm form div.TextAreaInput textarea{
+        font-size: 1rem;
+    }
+    
+
+}
+
+/* Responsive */
