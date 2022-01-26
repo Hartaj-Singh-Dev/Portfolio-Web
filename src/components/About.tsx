@@ -155,12 +155,7 @@ const About = () => {
             </div>
           </div>
           <div className="ContactArrow">
-            <Link
-              to="contact"
-              spy={true}
-              smooth={true}
-              duration={50}
-            >
+            <Link to="contact" spy={true} smooth={true} duration={50}>
               <IconButton>
                 <ArrowDownwardIcon fontSize="large"></ArrowDownwardIcon>
               </IconButton>

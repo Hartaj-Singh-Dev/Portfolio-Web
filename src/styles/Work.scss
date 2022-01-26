@@ -1,18 +1,63 @@
 @import url('http://fonts.cdnfonts.com/css/gigantic-fs');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 div.portfolio_projects{
 	height:120vh;
 	width: 100%;
 	background-color: rgb(27, 27, 27);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
 
 	div.header {
+		height: 10%;
 		width: 100%;
 		text-align: center;
-		margin: 0px 0 0 0;
+	
 		h1{
                 font-size: 2vw;
 		font-family: "Gigantic FS";
 		color: #ffff;
 		}
 	}
+
+	div.portfolio-grid{
+		height: 90%;
+		width: 100%;
+		display: grid;
+		grid-template-columns: auto auto;
+		
+
+		div.project-Portfolio{
+			height: 12vw;
+			width: 35vw;
+			display: flex;
+			border-radius: 10px;
+			div.left-Img{
+				width: 50%;
+				height: 100%;
+				img{
+					height: 100%;
+					width: 100%;
+				}
+			}
+			div.right_Data{
+				width: 50%;
+				height: 100%;
+				border: 2px solid #fff;
+				border-left: none;
+				div.projectName{
+					width: 100%;
+					text-align: center;
+					h1{
+						font-size: 1.3vw;
+						color: #fff;
+						font-family: "Montserrat";
+					}
+				}
+			}
+		}
+		
+	}
+
 }
