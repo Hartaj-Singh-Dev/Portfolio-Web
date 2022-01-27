@@ -1,5 +1,5 @@
 @import url('http://fonts.cdnfonts.com/css/gigantic-fs');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@750&display=swap');
 div.portfolio_projects{
 	height:120vh;
 	width: 100%;
@@ -29,8 +29,8 @@ div.portfolio_projects{
 		
 
 		div.project-Portfolio{
-			height: 12vw;
-			width: 35vw;
+			height: 16vw;
+			width: 40vw;
 			display: flex;
 			border-radius: 10px;
 			div.left-Img{
@@ -44,15 +44,17 @@ div.portfolio_projects{
 			div.right_Data{
 				width: 50%;
 				height: 100%;
-				border: 2px solid #fff;
+				
 				border-left: none;
+				background-color: rgb(255, 255, 255);
 				div.projectName{
 					width: 100%;
 					text-align: center;
 					h1{
 						font-size: 1.3vw;
-						color: #fff;
+						color: rgb(0, 0, 0);
 						font-family: "Montserrat";
+						
 					}
 				}
 			}
