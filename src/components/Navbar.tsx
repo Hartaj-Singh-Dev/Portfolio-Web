@@ -1,5 +1,5 @@
 import React,{ useState } from "react";
-import "../Styles/Navbar.scss";
+import "../styles/Navbar.scss"
 import { Link } from "react-scroll";
 
 const Navbar: React.FC = () => {

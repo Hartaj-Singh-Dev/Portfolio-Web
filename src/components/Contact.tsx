@@ -7,7 +7,6 @@ import "../Styles/Contact.scss";
 
 const Contact = () => {
 
-    console.log(import.meta.env.VITE_BACKEND_LINK)
   const [Error, setError] = useState("")
   const [userData, setuserData] = useState({ 
      name:'',
