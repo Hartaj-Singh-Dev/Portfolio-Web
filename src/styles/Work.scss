@@ -1,4 +1,4 @@
-@import url('http://fonts.cdnfonts.com/css/gigantic-fs');
+@import url('https://fonts.cdnfonts.com/css/gigantic-fs');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@750&display=swap');
 div.portfolio_projects{
 	height:120vh;
@@ -29,8 +29,8 @@ div.portfolio_projects{
 		
 
 		div.project-Portfolio{
-			height: 16vw;
-			width: 40vw;
+			height: 15vw;
+			width: 36vw;
 			display: flex;
 			border-radius: 10px;
 			div.left-Img{
@@ -39,6 +39,7 @@ div.portfolio_projects{
 				img{
 					height: 100%;
 					width: 100%;
+					object-fit: cover;
 				}
 			}
 			div.right_Data{

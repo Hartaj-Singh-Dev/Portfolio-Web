@@ -42,9 +42,9 @@ const Contact = () => {
    }
     setuserData({name:'',email:'',phone:'',message:''})
 
-    // const link: string  = import.meta.env.VITE_BACKEND_LINK
+    const link: any = import.meta.env.VITE_BACKEND_LINK
 
-   await fetch(process.env.BACKEND_LINK,{
+   await fetch(link,{
      mode:'cors',
      method:"POST",
       headers:{

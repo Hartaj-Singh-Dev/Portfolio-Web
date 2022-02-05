@@ -53,7 +53,7 @@ const Work = () => {
 			</div>  
 			<div className="project-Portfolio">
 				<div className="left-Img">
-				<img src={CoolNavbar} alt="" />
+				<img src={CoolNavbar} alt="" loading='lazy' />
 				</div>
 				<div className="right_Data">
 			               <div className="projectName">

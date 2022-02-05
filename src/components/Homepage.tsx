@@ -53,7 +53,7 @@ const Homepage = () => {
              <i className="fab fa-twitter fa-3x"></i>
             </a>
             <a
-              href="https://discordapp.com/users/772455850392027147"
+              href="https://discord.gg/b5J7zDp2qe"
               target="_blank"
               rel="noreferrer"
               className="discordIcon"

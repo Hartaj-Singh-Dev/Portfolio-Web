@@ -289,4 +289,11 @@ div.contactform h2.contactFormHeading{
 
 }
 
+@media only screen and( max-height: 400px){
+    section.contact {
+        height:261vh;
+        width: 100%;
+    }
+}
+
 /* Responsive */

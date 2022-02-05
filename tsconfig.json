@@ -16,6 +16,7 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "noImplicitAny": false,
+    "types": ["node"],
   },
   "include": ["./src"]
 }
