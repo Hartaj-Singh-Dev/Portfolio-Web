@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../Styles/About.scss";
+import "../styles/About.scss";
 import { Element } from "react-scroll";
 import ArrowDownwardIcon from "@material-ui/icons/ArrowDownward";
 import { IconButton } from "@material-ui/core";

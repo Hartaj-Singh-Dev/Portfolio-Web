@@ -3,7 +3,7 @@ import { Element } from "react-scroll";
 import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";
 import { IconButton } from "@material-ui/core";
 import { Link } from "react-scroll";
-import "../Styles/Contact.scss";
+import "../styles/Contact.scss";
 
 const Contact = () => {
 

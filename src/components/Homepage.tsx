@@ -1,5 +1,5 @@
 import React from "react";
-import "../Styles/Homepage.scss";
+import "../styles/Homepage.scss";
 import ArrowDownwardIcon from "@material-ui/icons/ArrowDownward";
 import { IconButton } from "@material-ui/core";
 import { Link } from "react-scroll";
