@@ -76,6 +76,10 @@ h1.myName{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;  
     font-family: 'Druk Wide Bold';
+   
+  text-shadow: 0 0 60px rgba(192, 219, 255, 0.438), 0 0 32px rgba(65, 119, 255, 0.432);
+
+
 }
 h1.myName::before{
     font-size: 9vw;
